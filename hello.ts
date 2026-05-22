@@ -31,3 +31,4 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         return res.status(500).json({ error: error.message });
     }
 };
+
